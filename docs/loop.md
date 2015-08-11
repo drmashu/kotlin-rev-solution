@@ -57,9 +57,11 @@ Range構文を使用して値の取りうる範囲と、ステップを指定す
 
     for (x in 2.0 downTo 1.0 step 0.3) print("$x ") // "2.0 1.7 1.4 1.1 "
 
-### 参考
+#### 参考
 
 [プログラミング言語Kotlin-3.4 制御構文](https://sites.google.com/site/tarokotlin/3-kotlinno-biao-zhunapi/sec34)
+
+[Kotlin Reference - Ranges](http://kotlinlang.org/docs/reference/ranges.html)
 
 
 
