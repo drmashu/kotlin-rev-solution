@@ -11,7 +11,7 @@ JVM言語の[Kotlin](http://kotlinlang.org)の逆引きサイトです。
 * [AndroidでHello World](./hello-kotlin-android)
 * [KotlinをEclipseで動かす（非推奨）](./kotlin-plugin-eclipse)
 * [変数を定義する](./variable)
-* [変数の型を宣言する](./type)
+* [型を宣言する](./type)
 * [インスタンスを生成する](./instance)
 * [配列を生成する](./array)
 * [関数を定義する](./function)
