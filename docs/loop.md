@@ -36,11 +36,23 @@
 * 関数 next()を持っている、かつ、Boolean型の関数 next() またはプロパティnext を持っている
 
 
-### for(int i = 0; i < 10; i++)とかは出来ない
+### for(int i = 0; i < 10; i++)とかをするには
+
+以下のように書きます。
+
+    for (i in 0..4) print(i) // prints "01234"
+
+    for (i in 0..4 step 2) print(i) // prints "024"
+
+    for (i in 4 downTo 0) print(i) // prints "43210"
+
+    for (i in 4 downTo 0 step 2) print(i) // prints "420"
+
+    for (x in 1.0..2.0) print("$x ") // prints "1.0 2.0 "
    
-   
-言語として提供されていません
-   
+    for (x in 1.0..2.0 step 0.3) print("$x ") // prints "1.0 1.3 1.6 1.9 "
+
+    for (x in 2.0 downTo 1.0 step 0.3) print("$x ") // prints "2.0 1.7 1.4 1.1 "
    
 ### 参考
 
@@ -104,5 +116,5 @@ whileとdo-whileに関しては他の言語とほぼ同じです。
 <br/>
 #### ページ公開時のKotlinのバージョン
    
-0.10.195 
+0.12.195 
  
